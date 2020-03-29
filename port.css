@@ -1,0 +1,83 @@
+.jumbotron {
+    margin-top: 20px;
+    max-width: 100%;
+    background-color: #323638;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: green;
+    font-weight: bolder;
+    font-size: 90px;
+}
+
+.one {
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.two {
+    background-color: #f1f5f8;
+    border-radius: 5px;
+    width: 120px;
+    height: 100%;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+img {
+    width: 550px;
+}
+
+/* Col one of the main row*/
+.one {
+    border: 2px solid black;
+}
+
+/*Main section- section one*/
+.child-row-one {
+    height: 40px;
+    background: rgb(44, 44, 46);
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.child-row-two {
+    height: 40px;
+    background: rgb(18, 146, 97);
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.child-row-three {
+    height: 40px;
+    background: rgb(78, 78, 80);
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+/*Nested second row of first col of main row html col elements*/
+.nested-col1 {
+    visibility: hidden;
+}
+
+.nested-col2 {
+    visibility: hidden;
+}
+
+.nested-col3 {
+    visibility: hidden;
+}
+

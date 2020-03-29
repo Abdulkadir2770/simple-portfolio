@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="port.css">
+
+</head>
+<body>
+    
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active" href="#">Projects</a>
+          <a class="nav-item nav-link active" href="#">Skills</a>
+          <a class="nav-item nav-link active" href="#">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+      <!--Jumbotron-->
+      <div class="container">
+        <div class="jumbotron ">
+            <i class="fas fa-camera"></i>
+            <h1 class="display-4">My <span id="bill-board">Portfolio</span></h1>
+        </div>
+      </div>
+
+      <!--Photo Gallery-->
+          <!--Main area-->
+    <div class="container second">
+        <div class="row">
+          <div class="col-sm one">
+
+            <!--Row one of the first major colmn-->
+            <div class="row">
+              <div class="col-sm child-row-one" id="projects">
+                Projects
+              </div>
+
+              <div class="col-sm child-row-two" id="skills">
+                Skills
+              </div>
+
+              <div class="col-sm child-row-three" id="contact">
+                Contacts
+              </div>
+            </div>
+
+            <!--Row two of the first major colmn-->
+            <div class="row">
+              <div class="col-sm nested-col1" id="one">
+                <h4>Facebook</h3>
+                <h4>Myspace</h4>
+                <h4>YouTube</h4>
+              </div>
+              <div class="col-sm nested-col2" id="two">
+                <h4>HTML + CSS</h3>
+                <h4>JavaScript</h4>
+                <h4>PHP</h4>
+              </div>
+              <div class="col-sm nested-col3" id="three">
+                <h4>...@gmail.com</h3>
+                <h4>Github</h4>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm two">
+            <img src="./robot.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!--Customized script tag-->
+    <script src="./port.js"></script>
+</body>
+</html>
